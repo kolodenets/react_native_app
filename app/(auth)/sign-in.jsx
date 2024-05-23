@@ -7,6 +7,7 @@ import FormField from "@/components/FormField";
 import CustomButton from "@/components/CustomButton";
 import { signIn, getCurrentUser } from "@/lib/appwrite";
 import { useGlobalContext } from "@/context/globalProvider";
+import { router } from "expo-router";
 
 const SignIn = () => {
   const { setUser, setIsLoggedIn } = useGlobalContext();
